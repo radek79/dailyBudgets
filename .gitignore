@@ -2,4 +2,6 @@ node_modules/
 www/build/
 platforms/
 plugins/
+hooks/
 .DS_Store
+config.xml
