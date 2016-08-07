@@ -14,3 +14,15 @@
     </ion-card-content>
   </ion-card>
 </ion-content>
+
+<ion-content class="home">
+  <ion-list>
+    <ion-item>{{monthlyBudget.title}}: {{monthlyBudget.available}} / {{monthlyBudget.total}}</ion-item>
+  </ion-list>
+</ion-content>
+
+<ion-item>
+  <ion-icon name="logo-twitter" item-left></ion-icon>
+  {{monthlyBudget.title}}
+  <ion-badge item-left>{{monthlyBudget.available}}</ion-badge>
+</ion-item>
